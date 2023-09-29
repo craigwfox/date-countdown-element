@@ -1,6 +1,6 @@
 {
 	"name": "date-countdown-timer",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"type": "module",
 	"files": [
 		"dist"
@@ -9,8 +9,7 @@
 	"module": "./dist/countdown-timer.js",
 	"exports": {
 		".": {
-			"import": "./dist/countdown-timer.js",
-			"require": "./dist/countdown-timer.js"
+			"import": "./dist/countdown-timer.js"
 		}
 	},
 	"scripts": {
